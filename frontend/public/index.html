@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/santa-favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#DC143C" />
+    <meta
+      name="Secret Santa"
+      content="Join our magical Secret Santa gift exchange!"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/santa-logo.png" />
+    <title>Secret Santa Exchange</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #f0f0f0;
+        background-image: 
+          linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+          url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%23DC143C" fill-opacity="0.4" fill-rule="evenodd"%3E%3Cpath d="M0 40L40 0H20L0 20M40 40V20L20 40"//%3E%3C/g%3E%3C/svg%3E');
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <div style="text-align: center; padding: 20px; background-color: #ffdddd; color: #333;">
+        <h2>🎄 Secret Santa Requires JavaScript 🎁</h2>
+        <p>You need to enable JavaScript to run this application.</p>
+      </div>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
