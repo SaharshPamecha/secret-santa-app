@@ -56,3 +56,6 @@ pytz==2023.3
 requests==2.26.0
 email-validator==1.1.3
 gunicorn==20.1.0
+
+
+https://render.com/docs/web-services?_gl=1*1jri2g3*_gcl_au*MTIwMDc0MDkyMS4xNzMzNjQ2NDU1*_ga*NDA2MDQxOTM0LjE3MzM2NDY0NTY.*_ga_QK9L9QJC5N*MTczMzY0ODQ3OS4yLjEuMTczMzY0OTY2MS42MC4wLjA.#port-binding
