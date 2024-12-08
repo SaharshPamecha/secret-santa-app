@@ -1,1 +1,46 @@
+js - 
+import React from 'react';
+
+const MyComponent = (props) => {
+  // ... component logic
+  return (
+    <div>
+      {/* ... JSX for the component's UI */}
+    </div>
+  );
+};
+
+export default MyComponent;
+Input - 
+import React from 'react';
+
+const Input = ({ type, placeholder, value, onChange, ...rest }) => {
+  return (
+    <input
+      type={type || 'text'}
+      placeholder={placeholder}
+      value={value}
+      onChange={onChange}
+      {...rest}
+    />
+  );
+};
+
+export default Input;
+
+Button - 
+import React from 'react';
+
+const Button = ({ children, onClick, className, ...rest }) => {
+  return (
+    <button onClick={onClick} className={className} {...rest}>
+      {children}
+    </button>
+  );
+};
+
+export default Button;
+
+
+
 
