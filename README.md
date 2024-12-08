@@ -42,3 +42,6 @@ frontend/
 │
 ├── package.json            # NPM dependencies
 └── .env                    # Environment variables
+
+
+pip install --upgrade sqlalchemy flask-sqlalchemy
