@@ -65,10 +65,6 @@ https://render.com/docs/web-services?_gl=1*1jri2g3*_gcl_au*MTIwMDc0MDkyMS4xNzMzN
 
 ![image](https://github.com/user-attachments/assets/f8b4c35f-3623-4cf3-99ce-429803d55598)
 
+App UI Interface - 
+![image](https://github.com/user-attachments/assets/f9b62c81-beed-40b2-a719-aafbf2a0ca95)
 
-==> Running 'python app.py'
-==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
-==> Timed out: Port scan timeout reached, no open ports detected on 0.0.0.0. Detected open ports on localhost -- did you mean to bind one of these to 0.0.0.0?
-==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
-==> Port scan timeout reached, no open ports detected on 0.0.0.0. Detected open ports on localhost -- did you mean to bind one of these to 0.0.0.0?
-==
