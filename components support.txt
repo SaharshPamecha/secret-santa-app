@@ -28,6 +28,7 @@ const Input = ({ type, placeholder, value, onChange, ...rest }) => {
 
 export default Input;
 
+
 Button - 
 import React from 'react';
 
@@ -40,6 +41,60 @@ const Button = ({ children, onClick, className, ...rest }) => {
 };
 
 export default Button;
+
+
+Card, CardHeader, CardContent, CardTitle-
+import React from 'react';
+
+const Card = ({ children, className, ...rest }) => {
+  return (
+    <div className={`card ${className}`} {...rest}>
+      {children}
+    </div>
+  );
+};
+
+const CardHeader = ({ children }) => {
+  return <div className="card-header">{children}</div>;
+};
+
+const CardContent = ({ children }) => {
+  return <div className="card-content">{children}</div>;
+};
+
+const CardTitle 1  = ({ children }) => {
+  return <h2 className="card-title">{children}</h2>;
+};
+
+export { Card, CardHeader, CardContent, CardTitle };
+
+
+Checkbox - 
+import React from 'react';
+
+const Checkbox = ({ id, checked, onChange, label, ...rest }) => {
+  return (
+    <label htmlFor={id}>
+      <input type="checkbox" id={id} checked={checked} onChange={onChange} {...rest} />
+      {label}
+    </label>
+  );
+};
+
+export default Checkbox;
+
+Label - 
+import React from 'react';
+
+const Label = ({ children, htmlFor, className, ...rest }) => {
+  return (
+    <label htmlFor={htmlFor} className={className} {...rest}>
+      {children}
+    </label>
+  );
+};
+
+export default Label;
 
 
 
