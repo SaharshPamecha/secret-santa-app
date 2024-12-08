@@ -59,3 +59,8 @@ gunicorn==20.1.0
 
 
 https://render.com/docs/web-services?_gl=1*1jri2g3*_gcl_au*MTIwMDc0MDkyMS4xNzMzNjQ2NDU1*_ga*NDA2MDQxOTM0LjE3MzM2NDY0NTY.*_ga_QK9L9QJC5N*MTczMzY0ODQ3OS4yLjEuMTczMzY0OTY2MS42MC4wLjA.#port-binding
+
+
+
+
+![image](https://github.com/user-attachments/assets/f8b4c35f-3623-4cf3-99ce-429803d55598)
