@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import './Form.css';
 
 function Form() {
@@ -13,7 +13,7 @@ function Form() {
   });
 
   const [statusMessage, setStatusMessage] = useState('');
-  const [disabled, setDisabled] = useState(false)
+  const disabled = useRef(false)
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     setFormData({
@@ -31,7 +31,7 @@ function Form() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-        setDisabled(true)
+        disabled.current=true
         setFormData({
             name: '',
             secretName: '',
@@ -52,6 +52,7 @@ function Form() {
       const result = await response.json();
       setStatusMessage('Form submitted successfully!');
       console.log(result)
+      window.location.reload()
     } catch (error) {
       console.error('Error:', error);
       setStatusMessage('Failed to submit the form.');
@@ -71,7 +72,7 @@ function Form() {
         required
       />
 
-      <label>Secret Name:</label>
+      <label>Secret Santa Name:</label>
       <input
         type="text"
         name="secretName"
@@ -128,7 +129,7 @@ function Form() {
         I agree to the terms and conditions
       </label>
 
-      <button type="submit" disabled={disabled}>Submit</button>
+      <button type="submit" disabled={disabled.current}>Submit</button>
       {statusMessage && <p className="success">{statusMessage}</p>}
     </form>
   );

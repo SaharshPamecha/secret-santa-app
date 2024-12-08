@@ -10,12 +10,21 @@ body {
   background: #f9f9f9;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  padding: 2rem 0;
   background: url('https://www.link-to-christmas-bg.com') no-repeat center center/cover;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
 
+header {
+  margin-bottom: 2rem;
+}
 
 form {
   background: white;
@@ -24,7 +33,7 @@ form {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   max-width: 600px;
   width: 100%;
-  text-align: center;
+  margin: 2rem auto;
   border: 4px solid #d32f2f;
 }
 
