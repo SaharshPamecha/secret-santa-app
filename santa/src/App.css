@@ -1,5 +1,6 @@
-.App {
+App{
   text-align: center;
+  background-color:antiquewhite;
 }
 
 .App-logo {
@@ -39,6 +40,11 @@
 
 .form-container{
   border: 2px solid black;
+  background-color: red;
+  text-align: center;
+  display: flex;
   justify-content:  center ;
   align-items: center;
+  width: 80%;
+  margin: auto;
 }

@@ -1,10 +1,12 @@
-import './App.css';
+import "./App.css";
+import Form from "./Components/Form";
 
 function App() {
   return (
-    <div className="App">
-      <h1>This is Secret Santa Website</h1>
-    </div>
+    <>
+      <h2 className="">🎄 Secret Santa Registration 🎅</h2>
+      <Form />
+    </>
   );
 }
 
