@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Checkbox } from '@/components/ui/checkbox';
-import { Label } from '@/components/ui/label';
+import Input from './components/Input'
+import Button from './components/Button'
+import { Card, CardContent, CardHeader, CardTitle } from './components/Card';
+import Checkbox  from './components/Checkbox';
+import Label from './components/Label';
 import { Gift, Clock, Users } from 'lucide-react';
 
 // Main App Component
@@ -141,9 +141,9 @@ const SecretSantaApp = () => {
                 I agree to the Secret Santa terms and conditions
               </Label>
             </div>
-            <Button type="submit" className="w-full bg-red-600 hover:bg-red-700">
+            <button type="button" className="btn-warning">
               Register for Secret Santa
-            </Button>
+            </button>
           </form>
         </CardContent>
       </Card>
